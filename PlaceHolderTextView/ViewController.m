@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "PlaceHolderTextView.h"
-@interface ViewController ()
+@interface ViewController ()<UITextViewDelegate>
 
 @end
 
@@ -19,10 +19,14 @@
     PlaceHolderTextView *textView = [[PlaceHolderTextView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 300)];
     textView.placeHoderText = @"我是placehoder...";
     textView.layer.borderWidth = 1;
+    textView.delegate = self;
     [self.view addSubview:textView];
 
 }
 
+- (void)textViewDidChange:(UITextView *)textView {
+    NSLog(@"%@",textView.text);
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

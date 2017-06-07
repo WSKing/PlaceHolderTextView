@@ -14,11 +14,16 @@
 
 @implementation PlaceHolderTextView
 
+
+- (void)dealloc {
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:UITextViewTextDidChangeNotification object:nil];
+}
+
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
         [self createPlaceHoder];
-        self.delegate = self;
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textViewTextDidChange:) name:UITextViewTextDidChangeNotification object:nil];
     }
     return self;
 }
@@ -26,7 +31,7 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     [self createPlaceHoder];
-    self.delegate = self;
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textViewTextDidChange:) name:UITextViewTextDidChangeNotification object:nil];
 }
 
 
@@ -35,8 +40,8 @@
     
 }
 
-- (void)textViewDidChange:(UITextView *)textView {
-    if (textView.text.length == 0) {
+- (void)textViewTextDidChange:(NSNotification *)noty {
+    if (self.text.length == 0) {
         self.placeLabel.alpha =1;
         self.placeLabel.text = self.placeHoderText;
     }else {
@@ -44,6 +49,9 @@
         self.placeLabel.text = nil;
     }
 }
+
+
+
 
 
 - (void)setPlaceHoderText:(NSString *)placeHoderText {
