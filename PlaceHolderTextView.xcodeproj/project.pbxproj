@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CC5493D1EE7F22C006FFFDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC5493C1EE7F22C006FFFDB /* main.m */; };
+		7CC549401EE7F22C006FFFDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC5493F1EE7F22C006FFFDB /* AppDelegate.m */; };
+		7CC549431EE7F22C006FFFDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC549421EE7F22C006FFFDB /* ViewController.m */; };
+		7CC549461EE7F22C006FFFDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC549441EE7F22C006FFFDB /* Main.storyboard */; };
+		7CC549481EE7F22C006FFFDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC549471EE7F22C006FFFDB /* Assets.xcassets */; };
+		7CC5494B1EE7F22C006FFFDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC549491EE7F22C006FFFDB /* LaunchScreen.storyboard */; };
+		7CC549561EE7F22C006FFFDB /* PlaceHolderTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC549551EE7F22C006FFFDB /* PlaceHolderTextViewTests.m */; };
+		7CC549611EE7F22C006FFFDB /* PlaceHolderTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC549601EE7F22C006FFFDB /* PlaceHolderTextViewUITests.m */; };
+		7CC549741EE7F361006FFFDB /* PlaceHolderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC549731EE7F361006FFFDB /* PlaceHolderTextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CC549521EE7F22C006FFFDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CC549301EE7F22C006FFFDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CC549371EE7F22C006FFFDB;
+			remoteInfo = PlaceHolderTextView;
+		};
+		7CC5495D1EE7F22C006FFFDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CC549301EE7F22C006FFFDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CC549371EE7F22C006FFFDB;
+			remoteInfo = PlaceHolderTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CC549381EE7F22C006FFFDB /* PlaceHolderTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaceHolderTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC5493C1EE7F22C006FFFDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CC5493E1EE7F22C006FFFDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7CC5493F1EE7F22C006FFFDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7CC549411EE7F22C006FFFDB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7CC549421EE7F22C006FFFDB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7CC549451EE7F22C006FFFDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CC549471EE7F22C006FFFDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CC5494A1EE7F22C006FFFDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CC5494C1EE7F22C006FFFDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC549511EE7F22C006FFFDB /* PlaceHolderTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaceHolderTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC549551EE7F22C006FFFDB /* PlaceHolderTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaceHolderTextViewTests.m; sourceTree = "<group>"; };
+		7CC549571EE7F22C006FFFDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC5495C1EE7F22C006FFFDB /* PlaceHolderTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaceHolderTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC549601EE7F22C006FFFDB /* PlaceHolderTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaceHolderTextViewUITests.m; sourceTree = "<group>"; };
+		7CC549621EE7F22C006FFFDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC549721EE7F361006FFFDB /* PlaceHolderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceHolderTextView.h; sourceTree = "<group>"; };
+		7CC549731EE7F361006FFFDB /* PlaceHolderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceHolderTextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CC549351EE7F22C006FFFDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC5494E1EE7F22C006FFFDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC549591EE7F22C006FFFDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CC5492F1EE7F22C006FFFDB = {
+			isa = PBXGroup;
+			children = (
+				7CC5493A1EE7F22C006FFFDB /* PlaceHolderTextView */,
+				7CC549541EE7F22C006FFFDB /* PlaceHolderTextViewTests */,
+				7CC5495F1EE7F22C006FFFDB /* PlaceHolderTextViewUITests */,
+				7CC549391EE7F22C006FFFDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CC549391EE7F22C006FFFDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CC549381EE7F22C006FFFDB /* PlaceHolderTextView.app */,
+				7CC549511EE7F22C006FFFDB /* PlaceHolderTextViewTests.xctest */,
+				7CC5495C1EE7F22C006FFFDB /* PlaceHolderTextViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CC5493A1EE7F22C006FFFDB /* PlaceHolderTextView */ = {
+			isa = PBXGroup;
+			children = (
+				7CC5493E1EE7F22C006FFFDB /* AppDelegate.h */,
+				7CC5493F1EE7F22C006FFFDB /* AppDelegate.m */,
+				7CC549411EE7F22C006FFFDB /* ViewController.h */,
+				7CC549421EE7F22C006FFFDB /* ViewController.m */,
+				7CC549721EE7F361006FFFDB /* PlaceHolderTextView.h */,
+				7CC549731EE7F361006FFFDB /* PlaceHolderTextView.m */,
+				7CC549441EE7F22C006FFFDB /* Main.storyboard */,
+				7CC549471EE7F22C006FFFDB /* Assets.xcassets */,
+				7CC549491EE7F22C006FFFDB /* LaunchScreen.storyboard */,
+				7CC5494C1EE7F22C006FFFDB /* Info.plist */,
+				7CC5493B1EE7F22C006FFFDB /* Supporting Files */,
+			);
+			path = PlaceHolderTextView;
+			sourceTree = "<group>";
+		};
+		7CC5493B1EE7F22C006FFFDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CC5493C1EE7F22C006FFFDB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CC549541EE7F22C006FFFDB /* PlaceHolderTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CC549551EE7F22C006FFFDB /* PlaceHolderTextViewTests.m */,
+				7CC549571EE7F22C006FFFDB /* Info.plist */,
+			);
+			path = PlaceHolderTextViewTests;
+			sourceTree = "<group>";
+		};
+		7CC5495F1EE7F22C006FFFDB /* PlaceHolderTextViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CC549601EE7F22C006FFFDB /* PlaceHolderTextViewUITests.m */,
+				7CC549621EE7F22C006FFFDB /* Info.plist */,
+			);
+			path = PlaceHolderTextViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CC549371EE7F22C006FFFDB /* PlaceHolderTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC549651EE7F22C006FFFDB /* Build configuration list for PBXNativeTarget "PlaceHolderTextView" */;
+			buildPhases = (
+				7CC549341EE7F22C006FFFDB /* Sources */,
+				7CC549351EE7F22C006FFFDB /* Frameworks */,
+				7CC549361EE7F22C006FFFDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlaceHolderTextView;
+			productName = PlaceHolderTextView;
+			productReference = 7CC549381EE7F22C006FFFDB /* PlaceHolderTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CC549501EE7F22C006FFFDB /* PlaceHolderTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC549681EE7F22C006FFFDB /* Build configuration list for PBXNativeTarget "PlaceHolderTextViewTests" */;
+			buildPhases = (
+				7CC5494D1EE7F22C006FFFDB /* Sources */,
+				7CC5494E1EE7F22C006FFFDB /* Frameworks */,
+				7CC5494F1EE7F22C006FFFDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CC549531EE7F22C006FFFDB /* PBXTargetDependency */,
+			);
+			name = PlaceHolderTextViewTests;
+			productName = PlaceHolderTextViewTests;
+			productReference = 7CC549511EE7F22C006FFFDB /* PlaceHolderTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CC5495B1EE7F22C006FFFDB /* PlaceHolderTextViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC5496B1EE7F22C006FFFDB /* Build configuration list for PBXNativeTarget "PlaceHolderTextViewUITests" */;
+			buildPhases = (
+				7CC549581EE7F22C006FFFDB /* Sources */,
+				7CC549591EE7F22C006FFFDB /* Frameworks */,
+				7CC5495A1EE7F22C006FFFDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CC5495E1EE7F22C006FFFDB /* PBXTargetDependency */,
+			);
+			name = PlaceHolderTextViewUITests;
+			productName = PlaceHolderTextViewUITests;
+			productReference = 7CC5495C1EE7F22C006FFFDB /* PlaceHolderTextViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CC549301EE7F22C006FFFDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = wsk;
+				TargetAttributes = {
+					7CC549371EE7F22C006FFFDB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					7CC549501EE7F22C006FFFDB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CC549371EE7F22C006FFFDB;
+					};
+					7CC5495B1EE7F22C006FFFDB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CC549371EE7F22C006FFFDB;
+					};
+				};
+			};
+			buildConfigurationList = 7CC549331EE7F22C006FFFDB /* Build configuration list for PBXProject "PlaceHolderTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CC5492F1EE7F22C006FFFDB;
+			productRefGroup = 7CC549391EE7F22C006FFFDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CC549371EE7F22C006FFFDB /* PlaceHolderTextView */,
+				7CC549501EE7F22C006FFFDB /* PlaceHolderTextViewTests */,
+				7CC5495B1EE7F22C006FFFDB /* PlaceHolderTextViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CC549361EE7F22C006FFFDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC5494B1EE7F22C006FFFDB /* LaunchScreen.storyboard in Resources */,
+				7CC549481EE7F22C006FFFDB /* Assets.xcassets in Resources */,
+				7CC549461EE7F22C006FFFDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC5494F1EE7F22C006FFFDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC5495A1EE7F22C006FFFDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CC549341EE7F22C006FFFDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC549431EE7F22C006FFFDB /* ViewController.m in Sources */,
+				7CC549401EE7F22C006FFFDB /* AppDelegate.m in Sources */,
+				7CC5493D1EE7F22C006FFFDB /* main.m in Sources */,
+				7CC549741EE7F361006FFFDB /* PlaceHolderTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC5494D1EE7F22C006FFFDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC549561EE7F22C006FFFDB /* PlaceHolderTextViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC549581EE7F22C006FFFDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC549611EE7F22C006FFFDB /* PlaceHolderTextViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CC549531EE7F22C006FFFDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CC549371EE7F22C006FFFDB /* PlaceHolderTextView */;
+			targetProxy = 7CC549521EE7F22C006FFFDB /* PBXContainerItemProxy */;
+		};
+		7CC5495E1EE7F22C006FFFDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CC549371EE7F22C006FFFDB /* PlaceHolderTextView */;
+			targetProxy = 7CC5495D1EE7F22C006FFFDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CC549441EE7F22C006FFFDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CC549451EE7F22C006FFFDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CC549491EE7F22C006FFFDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CC5494A1EE7F22C006FFFDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CC549631EE7F22C006FFFDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7CC549641EE7F22C006FFFDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CC549661EE7F22C006FFFDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlaceHolderTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wsk.PlaceHolderTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7CC549671EE7F22C006FFFDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlaceHolderTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wsk.PlaceHolderTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7CC549691EE7F22C006FFFDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlaceHolderTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wsk.PlaceHolderTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlaceHolderTextView.app/PlaceHolderTextView";
+			};
+			name = Debug;
+		};
+		7CC5496A1EE7F22C006FFFDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlaceHolderTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wsk.PlaceHolderTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlaceHolderTextView.app/PlaceHolderTextView";
+			};
+			name = Release;
+		};
+		7CC5496C1EE7F22C006FFFDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PlaceHolderTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wsk.PlaceHolderTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlaceHolderTextView;
+			};
+			name = Debug;
+		};
+		7CC5496D1EE7F22C006FFFDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PlaceHolderTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wsk.PlaceHolderTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlaceHolderTextView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CC549331EE7F22C006FFFDB /* Build configuration list for PBXProject "PlaceHolderTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC549631EE7F22C006FFFDB /* Debug */,
+				7CC549641EE7F22C006FFFDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CC549651EE7F22C006FFFDB /* Build configuration list for PBXNativeTarget "PlaceHolderTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC549661EE7F22C006FFFDB /* Debug */,
+				7CC549671EE7F22C006FFFDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CC549681EE7F22C006FFFDB /* Build configuration list for PBXNativeTarget "PlaceHolderTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC549691EE7F22C006FFFDB /* Debug */,
+				7CC5496A1EE7F22C006FFFDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CC5496B1EE7F22C006FFFDB /* Build configuration list for PBXNativeTarget "PlaceHolderTextViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC5496C1EE7F22C006FFFDB /* Debug */,
+				7CC5496D1EE7F22C006FFFDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CC549301EE7F22C006FFFDB /* Project object */;
+}
